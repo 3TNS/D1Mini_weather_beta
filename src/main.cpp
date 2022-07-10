@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #define BLYNK_PRINT Serial    // Comment this out to disable prints and save space
-#define BLYNK_TEMPLATE_ID "TMPLa-Z75oLy"
-#define BLYNK_DEVICE_NAME "DHT22"
+#define BLYNK_TEMPLATE_ID "Your blynk template id" //Fill in from Blynk dashboard
+#define BLYNK_DEVICE_NAME "Your blynk device name" //Fill in from Blynk dashboard
 #include <SPI.h>
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -11,9 +11,9 @@
 #include <Adafruit_Sensor.h>
 
 
-char auth[] = "ZsJTjanr1VM39NZWIEOzdmgoF9HLgCPY";
-char ssid[] = "Crybaby";  //Enter your WIFI Name
-char pass[] = "vodkatime07";  //Enter your WIFI Password
+char auth[] = "Your Blynk aurh token"; //Fill in from Blynk dashboard
+char ssid[] = "ssid";  //Enter your WIFI Name
+char pass[] = "password";  //Enter your WIFI Password
 
 #define DHTPIN 2          // Digital pin 4
 #define DHTTYPE DHT22   // DHT 22, AM2302, AM2321
